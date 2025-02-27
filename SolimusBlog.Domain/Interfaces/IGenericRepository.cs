@@ -8,6 +8,6 @@ public interface IGenericRepository<TEntity> where TEntity : class
     Task<IEnumerable<TEntity>> GetAllAsync();
     Task<IEnumerable<TEntity>> FindAsync(Expression<Func<TEntity, bool>> predicate);
     Task<TEntity> AddAsync(TEntity entity);
-    void Update(TEntity entity);
+    TEntity Update(TEntity entity);
     void Delete(TEntity entity);
 }
