@@ -1,0 +1,2 @@
+# SolimusBlog
+Simple blog application
