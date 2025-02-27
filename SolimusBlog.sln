@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolimusBlog.API", "SolimusBlog.API\SolimusBlog.API.csproj", "{33F614B9-F776-4D2D-B7A1-4AAF92C6D1F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolimusBlog.Domain", "SolimusBlog.Domain\SolimusBlog.Domain.csproj", "{B6C3A948-D2D0-4D86-B6FB-BC340EDB5412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolimusBlog.Application", "SolimusBlog.Application\SolimusBlog.Application.csproj", "{1754706A-7C69-436F-AD1D-90D33D0ACA0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolimusBlog.Infrastructure", "SolimusBlog.Infrastructure\SolimusBlog.Infrastructure.csproj", "{2B75EE0A-7A9E-41D2-BD28-3F10AC479296}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33F614B9-F776-4D2D-B7A1-4AAF92C6D1F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F614B9-F776-4D2D-B7A1-4AAF92C6D1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F614B9-F776-4D2D-B7A1-4AAF92C6D1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F614B9-F776-4D2D-B7A1-4AAF92C6D1F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C3A948-D2D0-4D86-B6FB-BC340EDB5412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C3A948-D2D0-4D86-B6FB-BC340EDB5412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C3A948-D2D0-4D86-B6FB-BC340EDB5412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C3A948-D2D0-4D86-B6FB-BC340EDB5412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1754706A-7C69-436F-AD1D-90D33D0ACA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1754706A-7C69-436F-AD1D-90D33D0ACA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1754706A-7C69-436F-AD1D-90D33D0ACA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1754706A-7C69-436F-AD1D-90D33D0ACA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B75EE0A-7A9E-41D2-BD28-3F10AC479296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B75EE0A-7A9E-41D2-BD28-3F10AC479296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B75EE0A-7A9E-41D2-BD28-3F10AC479296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B75EE0A-7A9E-41D2-BD28-3F10AC479296}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
