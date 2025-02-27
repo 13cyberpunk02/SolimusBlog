@@ -1,6 +1,6 @@
 ﻿namespace SolimusBlog.Application.Common.Results;
 
-public sealed record Error(string Code, string Message)
+public sealed record ApplicationError(string Code, string Message)
 {
-    internal static Error None => new (ErrorTypeConstant.None, string.Empty);   
+    internal static ApplicationError None => new (ErrorTypeConstant.None, string.Empty);   
 }

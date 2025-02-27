@@ -2,7 +2,7 @@
 
 public static class ErrorTypeConstant
 {
-    public const string None = "Пусто";
+    public const string None = "";
     public const string ValidationError = "Ошибка валидации";
     public const string UnrecognizedRequestError = "Неверный запрос";
     public const string UnAuthorized = "Ошибка авторизации";

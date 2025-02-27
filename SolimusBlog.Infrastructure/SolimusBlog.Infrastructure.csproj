@@ -16,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\SolimusBlog.Domain\SolimusBlog.Domain.csproj" />
+      <ProjectReference Include="..\SolimusBlog.Application\SolimusBlog.Application.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,10 +1,10 @@
 ﻿namespace SolimusBlog.Application.Common.Results;
 
-public class TResult<TValue> : Result
+public class ResultT<TValue> : Result
 {
     private readonly TValue _value;
 
-    protected internal TResult(TValue value, bool isSuccess, Error error) : base(isSuccess, error)
+    protected internal ResultT(TValue value, bool isSuccess, ApplicationError error) : base(isSuccess, error)
     {
         _value = value;
     }
