@@ -3,3 +3,12 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
+SolimusBlog.Infrastructure/Persistence/Migrations/20250227232955_DbSetup.cs
+SolimusBlog.Infrastructure/Persistence/Migrations/20250227232955_DbSetup.Designer.cs
+.idea/.idea.SolimusBlog/.idea/encodings.xml
+.gitignore
+.idea/.idea.SolimusBlog/.idea/material_theme_project_new.xml
+.idea/.idea.SolimusBlog/.idea/indexLayout.xml
+.idea/.idea.SolimusBlog/.idea/vcs.xml
+SolimusBlog.Infrastructure/Persistence/Migrations/SolimusAppContextModelSnapshot.cs
+SolimusBlog.UI/SolimusBlog.UI/public/favicon.ico
