@@ -1,3 +1,3 @@
 ﻿namespace SolimusBlog.Application.Models.Configurations;
 
-public record DbConnectionsConfiguration(string ConnectionString);
+public record DbConnectionsConfiguration(string PostgresConnection, string RedisConnection);

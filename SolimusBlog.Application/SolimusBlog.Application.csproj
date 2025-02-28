@@ -9,8 +9,6 @@
     <ItemGroup>
       <Folder Include="Extensions\" />
       <Folder Include="Models\DTO`s\Request\Blog\" />
-      <Folder Include="Models\DTO`s\Response\" />
-      <Folder Include="Validators\" />
     </ItemGroup>
 
     <ItemGroup>

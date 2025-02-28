@@ -8,7 +8,7 @@ public class Result
 
     protected Result(bool success, ApplicationError error)
     {
-        if ((success && error != ApplicationError.None) || (!success && error != ApplicationError.None))
+        if ((success && error != ApplicationError.None) || (!success && error == ApplicationError.None))
         {
             throw new InvalidOperationException("Невозможно выполнить операцию");
         }

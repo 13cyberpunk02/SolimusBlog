@@ -9,7 +9,7 @@ public class SolimusUserBlogConfiguration : IEntityTypeConfiguration<SolimusUser
     public void Configure(EntityTypeBuilder<SolimusUserBlog> builder)
     {
         builder.HasKey(ub => new { ub.UserId, ub.BlogId });
-
+        
         builder.HasOne(ub => ub.SolimusUser)
             .WithMany(u => u.SolimusUserBlogs)
             .HasForeignKey(ub => ub.UserId);
